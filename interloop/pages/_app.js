@@ -1,5 +1,18 @@
-import '@/styles/globals.css'
+import Layout from '../components/layout';
+import 'bootstrap/dist/css/bootstrap.css';
+import SSRProvider from 'react-bootstrap/SSRProvider';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+// NavBar to be on every page
+function MyApp({ Component, pageProps }) {
+  return (
+    <div className="logo">
+      <SSRProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </SSRProvider>
+    </div>
+  );
 }
+
+export default MyApp;
