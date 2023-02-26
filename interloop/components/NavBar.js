@@ -20,7 +20,7 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: '100%' }}>
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/">Dashboard</Nav.Link>
+              <Nav.Link href="/dashboard">Dashboard</Nav.Link>
               <NavDropdown title={session.user?.email}>
                 <NavDropdown.Item href="/profile">Profile</NavDropdown.Item>
                 <NavDropdown.Divider />
