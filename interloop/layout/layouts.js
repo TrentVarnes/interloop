@@ -8,7 +8,9 @@ export default function Layouts({ children }) {
           <h1 className="font-medium text-5xl pl-14 text-left text-white pt-10">
             Sign up with interloop scoreboard
           </h1>
-          <img src={loopz} alt="interloop photo" height={300} width={300} />
+          <div align="center">
+            <img src={loopz} alignheight={300} width={300}></img>
+          </div>
         </div>
         <div className="right flex flex-col rounded-r-lg justify-evenly bg-white">
           <div className="text-center py-10">{children}</div>
