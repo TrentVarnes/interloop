@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { useFormik } from 'formik';
 import { register_validate } from '@/lib/validate';
 import Router from 'next/router';
+import { toast } from 'react-toastify';
 
 export default function Register() {
   const [show, setShow] = useState({ password: false, cpassword: false });
@@ -22,6 +23,7 @@ export default function Register() {
     onSubmit,
   });
 
+  // handles the click for registering new user
   async function onSubmit(values) {
     const options = {
       method: 'POST',
@@ -29,9 +31,25 @@ export default function Register() {
       body: JSON.stringify(values),
     };
     await fetch('http://localhost:3000/api/auth/signup', options)
+      // if successful it will re-route to login page and store in db
       .then((res) => res.json())
       .then((data) => {
-        if (data) Router.push('http://localhost:3000/login');
+        if (data.status === true) {
+          Router.push('http://localhost:3000/login');
+          // displays success message
+          toast('Registered successfully', {
+            hideProgressBar: true,
+            autoClose: 2000,
+            type: 'success',
+          });
+        } else {
+          //displays error message
+          toast('Email already exists', {
+            hideProgressBar: true,
+            autoClose: 2000,
+            type: 'error',
+          });
+        }
       });
   }
   return (
