@@ -15,14 +15,15 @@ export default function Dashboard() {
     }
   });
   return (
-    <div className="flex h-screen bg-slate-900">
+    <div align="middle" className="bg-slate-900">
       <Head>
         <title>Dashboard</title>
       </Head>
       <iframe
-        width="1400"
-        height="950"
+        width="1450"
+        height="888"
         src="https://app.powerbi.com/view?r=eyJrIjoiMDI5MGU0NWUtZjhlMy00Y2IyLThmNmEtNGE3YWIwY2UwNTc0IiwidCI6IjAxNzgzNzkyLTZkZTEtNDI2Ny1iZDJmLTQxMDk3NzlhZTQwYSIsImMiOjF9"
+          allowFullScreen="true"
       ></iframe>
     </div>
   );
