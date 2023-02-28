@@ -11,7 +11,7 @@ const NavBar = () => {
   const { data: session, status } = useSession();
   if (status === 'authenticated') {
     return (
-      <Navbar className="bg-zinc-500" variant="dark">
+      <Navbar className="bg-zinc-500 " variant="dark">
         <Navbar.Brand
           className="mx-3 flex items-center justify-center"
           href="/"
