@@ -9,6 +9,7 @@ import { useFormik } from 'formik';
 import login_validate from '@/lib/validate';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
+import { useEffect } from 'react';
 
 export default function Login() {
   const { data: session, status } = useSession();
@@ -32,16 +33,22 @@ export default function Login() {
       callbackUrl: '/',
     });
 
-    console.log(status);
+    console.log(status.error.startsWith('N'));
     if (status.ok) {
-      router.push(status.url);
+      router.push('/');
       toast('Login successful', {
         hideProgressBar: true,
         autoClose: 2000,
         type: 'success',
       });
-    } else {
+    } else if (status.error.startsWith('N')) {
       toast('No account found please register', {
+        hideProgressBar: true,
+        autoClose: 2000,
+        type: 'error',
+      });
+    } else if (status.error.startsWith('U')) {
+      toast('Username or Password does not match', {
         hideProgressBar: true,
         autoClose: 2000,
         type: 'error',
@@ -49,6 +56,12 @@ export default function Login() {
     }
   }
 
+  useEffect(() => {
+    if (status === 'unauthenticated') {
+    } else if (status === 'authenticated') {
+      void router.push('/');
+    }
+  });
   return (
     <Layouts>
       <Head>

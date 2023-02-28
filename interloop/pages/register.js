@@ -14,7 +14,7 @@ export default function Register() {
   const [show, setShow] = useState({ password: false, cpassword: false });
   const formik = useFormik({
     initialValues: {
-      username: '',
+      name: '',
       email: '',
       password: '',
       cpassword: '',

@@ -32,8 +32,8 @@ export const authOptions = {
         );
 
         // incorrect password
-        if (!checkPassword || result.email !== result.email) {
-          throw new Error('Username or Password does not match ');
+        if (!checkPassword || credentials.email !== result.email) {
+          throw new Error('Username or Password does not match');
         }
         return { email: result.email };
       },
