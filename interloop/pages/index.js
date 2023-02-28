@@ -15,15 +15,13 @@ export default function Home() {
     }
   });
   return (
-    <div className="">
+    <div className="flex h-screen bg-slate-900">
       <Head>
         <title>Home Page</title>
       </Head>
 
-      <main>
-        <h1 className="text-3xl font-bold underline">
-          {session?.user?.name} Home Page
-        </h1>
+      <main className="m-auto">
+        <h1 className="text-6xl font-bold text-white">Home</h1>
       </main>
     </div>
   );

@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { useFormik } from 'formik';
 import login_validate from '@/lib/validate';
 import { useRouter } from 'next/router';
+import { toast } from 'react-toastify';
 
 export default function Login() {
   const { data: session, status } = useSession();
@@ -31,7 +32,21 @@ export default function Login() {
       callbackUrl: '/',
     });
 
-    if (status.ok) router.push(status.url);
+    console.log(status);
+    if (status.ok) {
+      router.push(status.url);
+      toast('Login successful', {
+        hideProgressBar: true,
+        autoClose: 2000,
+        type: 'success',
+      });
+    } else {
+      toast('No account found please register', {
+        hideProgressBar: true,
+        autoClose: 2000,
+        type: 'error',
+      });
+    }
   }
 
   return (
@@ -55,7 +70,7 @@ export default function Login() {
               className={styles.input_text}
               type="email"
               name="email"
-              placeholder="email"
+              placeholder="user@interloop.ai"
               {...formik.getFieldProps('email')}
             />
             <span className="icon flex items-center px-4">

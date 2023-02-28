@@ -15,7 +15,7 @@ export default function Dashboard() {
     }
   });
   return (
-    <div align="center">
+    <div className="flex h-screen bg-slate-900">
       <Head>
         <title>Dashboard</title>
       </Head>

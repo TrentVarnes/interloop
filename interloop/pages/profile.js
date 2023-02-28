@@ -15,11 +15,11 @@ export default function Profile() {
     }
   });
   return (
-    <div align="center">
+    <div className="flex h-screen bg-slate-900">
       <Head>
         <title>Profile</title>
       </Head>
-      <h1>{session?.user?.email}</h1>
+      <h1 className="m-auto text-6xl text-white">{session?.user?.email}</h1>
     </div>
   );
 }
