@@ -21,7 +21,9 @@ export default function Home() {
       </Head>
 
       <main className="m-auto">
-        <h1 className="text-6xl font-bold text-white">Home</h1>
+        <h1 className="text-8xl font-bold text-white ">Interloop Scoreboard</h1>
+        <h2 className="text-xl font-bold text-white ">Stop Integrating, Start Interlooping.</h2>
+        <h2 className="text-xl font-bold text-white ">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</h2>
       </main>
     </div>
   );

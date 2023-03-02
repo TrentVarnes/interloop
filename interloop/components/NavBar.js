@@ -16,29 +16,29 @@ const NavBar = () => {
           className="mx-3 flex items-center justify-center"
           href="/"
         >
-          <img src={loop} alt="interloop photo" height={400} width={300} />
+          <img src={loop} alt="interloop photo" height={350} width={250} />
         </Navbar.Brand>
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: '100%' }}>
               <Nav.Link
-                className="text-slate-900 hover:text-white text-lg font-bold"
+                className="text-slate-900 hover:text-white text-m font-bold"
                 href="/"
               >
                 Home
               </Nav.Link>
               <Nav.Link
-                className="text-slate-900 hover:text-white text-lg font-bold"
+                className="text-slate-900 hover:text-white text-m font-bold"
                 href="/dashboard"
               >
                 Dashboard
               </Nav.Link>
               <NavDropdown
-                className=" text-lg font-bold"
+                className=" text-m font-bold"
                 title={
-                  <span className="text-slate-900 hover:text-white">
-                    {session.user?.email}
+                  <span className="text-slate-900 hover:text-white ">
+                    {session.user?.email.split('@')[0]}
                   </span>
                 }
               >
