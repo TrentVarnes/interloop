@@ -15,7 +15,7 @@ export default function Dashboard() {
     }
   });
   return (
-    <div align="middle" className="bg-slate-900">
+    <div align="middle" className="bg-slate-900 rounded-lg">
       <Head>
         <title>Dashboard</title>
       </Head>
@@ -23,7 +23,7 @@ export default function Dashboard() {
         width="1450"
         height="888"
         src="https://app.powerbi.com/view?r=eyJrIjoiMDI5MGU0NWUtZjhlMy00Y2IyLThmNmEtNGE3YWIwY2UwNTc0IiwidCI6IjAxNzgzNzkyLTZkZTEtNDI2Ny1iZDJmLTQxMDk3NzlhZTQwYSIsImMiOjF9"
-          allowFullScreen="true"
+        allowFullScreen={true}
       ></iframe>
     </div>
   );
