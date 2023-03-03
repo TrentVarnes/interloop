@@ -35,10 +35,11 @@ const NavBar = () => {
                 Dashboard
               </Nav.Link>
               <NavDropdown
-                className=" text-m font-bold"
+                align="right"
+                className="text-m font-bold"
                 title={
                   <span className="text-slate-900 hover:text-white ">
-                    {session.user?.email.split('@')[0]}
+                    {session.user.name}
                   </span>
                 }
               >
