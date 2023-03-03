@@ -90,7 +90,8 @@ export default function Login() {
               <HiAtSymbol size={25} />
             </span>
           </div>
-          {/*formik.errors.email && formik.touched.email ? (
+          {/**Zac could you try to make this look better? It displays a message error! On this and register page  */}
+          {/**formik.errors.email && formik.touched.email ? (
             <span className="text-rose-400">{formik.errors.email}</span>
           ) : (
             <></>
