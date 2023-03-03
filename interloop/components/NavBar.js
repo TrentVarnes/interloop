@@ -11,9 +11,9 @@ const NavBar = () => {
   const { data: session, status } = useSession();
   if (status === 'authenticated') {
     return (
-      <Navbar className="bg-zinc-500 " variant="dark">
+      <Navbar fluid expand="lg" className="bg-zinc-500 ">
         <Navbar.Brand
-          className="mx-3 flex items-center justify-center"
+          className="mx-3 flex items-center justify-center lang-de"
           href="/"
         >
           <img src={loop} alt="interloop photo" height={350} width={250} />

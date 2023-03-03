@@ -19,7 +19,12 @@ export default function Profile() {
       <Head>
         <title>Profile</title>
       </Head>
-      <h1 className="m-auto text-6xl text-white">{session?.user?.email}</h1>
+      <div className="mx-auto my-8 w-96">
+        <h1 className="text-3xl font-bold mb-4">My Profile</h1>
+        <p className="text-gray-400 mb-8">View and manage your profile information</p>
+        <h2 className="text-2xl font-bold mb-2">Email</h2>
+        <p className="text-gray-400">{session?.user?.email}</p>
+      </div>
     </div>
   );
 }
