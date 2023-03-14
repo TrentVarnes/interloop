@@ -39,7 +39,7 @@ const NavBar = () => {
                 className="text-m font-bold"
                 title={
                   <span className="text-slate-900 hover:text-white ">
-                    {session.user.name}
+                    {session.user?.name}
                   </span>
                 }
               >
