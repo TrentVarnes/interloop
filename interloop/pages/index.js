@@ -15,40 +15,36 @@ export default function Home() {
     }
   });
   return (
-    <div className="flex flex-col h-screen w-full">
-      <div className="flex flex-row h-screen w-full bg-slate-900">
-        <div className="max-w-screen-lg mx-auto flex 
-        flex-col py-40 px-10">
-          <div>
-            <h2 className="text-9xl text-white py-10 ">Interloop<br></br> Scoreboard</h2>
-            <p className="text-l mt:20  text-white">Stop Integrating, Start Interlooping </p>
-            <p className="text-smnpm ru py-52 text-white">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</p>
-          </div>
-          
-        </div>
-        <div className="max-w-screen-lg mx-auto flex flex-col py-40 px-4">
-          <div className='mx-auto flex flex-row'>
-            <div className="border-yellow-200 border-8 w-64 h-64 p-10 m-10 rounded-[30px]"></div>
-              <div className="bg-white w-14 h-14 rounded-full absolute m-16"></div>
-              <p className="text-sm text-white m-16 my-32 absolute"> username </p>
-            <div className="border-white border-8 w-64 h-64 p-10 m-10 rounded-[30px]"></div>   
-            </div>
-          <div className='mx-auto flex flex-row '>
-            <div className="border-white border-8 w-64 h-64 py-10 px-10 m-10 rounded-[30px]"></div>
-            <div className="border-white border-8 w-64 h-64 py-10 px-10 m-10 rounded-[30px]"></div>   
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-row h-screen w-full bg-slate-900">
-        <div className='mx-auto flex flex-row bg-slate-900'>
-              <div className="border-white border-8 w-64 h-64 py-96 px-10 m-10 rounded-[30px]"></div>
-              <div className="border-white border-8 w-64 h-64 py-96 px-10 m-10 rounded-[30px]"></div>  
-              <div className="border-white border-8 w-64 h-64 py-96 px-10 m-10 rounded-[30px]"></div>
-              <div className="border-white border-8 w-64 h-64 py-96 px-10 m-10 rounded-[30px]"></div>  
-              <div className="border-white border-8 w-64 h-64 py-96 px-10 m-10 rounded-[30px]"></div>
-        </div>
+    <div class="w-full flex flex-col min-h-screen">
+  <div class="w-full flex flex-col lg:flex-row flex-1 bg-slate-900">
+    <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 lg:px-10 md:py-20 md:px-4 flex-1">
+      <div class="text-center lg:text-left">
+        <h2 class="text-9xl md:text-8xl sm:text-8xl text-white py-10 text-left">Interloop<br />Scoreboard</h2>
+        <p class="text-3xl text-white text-left">Stop Integrating, Start Interlooping</p>
+        <p class="text-sm mt-28 md:py-16 lg:py-32 text-white text-left">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</p>
       </div>
     </div>
+    <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 md:py-20 px-4 flex-1">
+      <div class="mx-auto flex flex-wrap justify-center">
+        <div class="border-yellow-200 border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+        <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+        <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+        <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col lg:flex-row flex-1 bg-slate-900">
+    <div class="mx-auto flex flex-wrap justify-center lg:flex-row lg:items-center">
+      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+    </div>
+  </div>
+</div>
+
+
   
     
   );

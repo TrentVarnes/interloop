@@ -16,7 +16,7 @@ const NavBar = () => {
           className="mx-3 flex items-center justify-center lang-de"
           href="/"
         >
-          <img src={loop} alt="interloop photo" className="p-2 mx-16"height={200} width={200} />
+          <img src={loop} alt="interloop photo" className="p-2 "height={200} width={200} />
         </Navbar.Brand>
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
