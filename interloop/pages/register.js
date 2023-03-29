@@ -14,7 +14,7 @@ export default function Register() {
   const [show, setShow] = useState({ password: false, cpassword: false });
   const formik = useFormik({
     initialValues: {
-      name: '',
+      username: '',
       email: '',
       password: '',
       cpassword: '',
@@ -68,7 +68,7 @@ export default function Register() {
           >
             <input
               className={styles.input_text}
-              type="text"
+              type="username"
               name="username"
               placeholder="username"
               {...formik.getFieldProps('username')}
