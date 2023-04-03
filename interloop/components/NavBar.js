@@ -34,8 +34,10 @@ const NavBar = () => {
               >
                 Dashboard
               </Nav.Link>
-              <NavDropdown
-                align="right"
+
+
+              <NavDropdown 
+                align="end"
                 className="text-m font-bold"
                 title={
                   <span className="text-slate-900 hover:text-white ">
