@@ -15,13 +15,11 @@ export default function Dashboard() {
     }
   });
   return (
-    <div align="middle" className="bg-slate-900 rounded-lg">
+    <div align="middle" className="bg-slate-900 ">
       <Head>
         <title>Dashboard</title>
       </Head>
-      <iframe
-        width="1450"
-        height="888"
+      <iframe className="h-screen w-screen p-10"
         src="https://app.powerbi.com/reportEmbed?reportId=788eb99d-85c8-4723-a774-6157c2917ba0&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac"
         allowFullScreen={true}
       ></iframe>
