@@ -15,7 +15,7 @@ export default function Dashboard() {
     }
   });
   return (
-    <div align="middle" className="bg-slate-900 ">
+    <div align="middle" className="bg-slate-900 rounded-lg">
       <Head>
         <title>Dashboard</title>
       </Head>
