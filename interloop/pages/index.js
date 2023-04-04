@@ -2,7 +2,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import loopz from '../styles/images/loopz.svg';
+import interloop from '../styles/images/interloop.svg';
+import Image from 'next/legacy/image';
 
 export default function Home() {
   const { data: session, status } = useSession();
@@ -15,37 +16,36 @@ export default function Home() {
     }
   });
   return (
-    <div class="w-full flex flex-col min-h-screen">
-  <div class="w-full flex flex-col lg:flex-row flex-1 bg-slate-900">
-    <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 lg:px-10 md:py-20 md:px-4 flex-1">
-      <div class="text-center lg:text-left">
-        <h2 class="text-9xl md:text-8xl sm:text-8xl text-white py-10 text-left">Interloop<br />Scoreboard</h2>
-        <p class="text-3xl text-white text-left">Stop Integrating, Start Interlooping</p>
-        <p class="text-sm mt-28 md:py-16 lg:py-32 text-white text-left">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</p>
+    <div class="relative w-full flex flex-col min-h-screen w-100 h-100">
+      <Image src={interloop} alt="SVG Image" layout="fill" objectFit="cover"/>   
+        <div class="w-full flex flex-col lg:flex-row flex-1 bg-slate-900 ">
+        <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 lg:px-10 md:py-20 md:px-4 flex-1 ">
+          <div class="text-center lg:text-left ">
+            <h2 class="text-9xl md:text-8xl sm:text-8xl text-white py-10 text-left">Interloop<br />Scoreboard</h2>
+            <p class="text-3xl text-white text-left">Stop Integrating, Start Interlooping</p>
+            <p class="text-sm mt-28 md:py-16 lg:py-32 text-white text-left">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</p>
+          </div>
+        </div>
+        <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 md:py-20 px-4 flex-1">
+          <div class="mx-auto flex flex-wrap justify-center">
+            <div class="border-yellow-200 border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+            <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+            <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+            <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row flex-1 bg-slate-900">
+        <div class="mx-auto flex flex-wrap justify-center lg:flex-row lg:items-center">
+          <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+          <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+          <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+          <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+          <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
+        </div>
       </div>
     </div>
-    <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 md:py-20 px-4 flex-1">
-      <div class="mx-auto flex flex-wrap justify-center">
-        <div class="border-yellow-200 border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
-        <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
-        <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
-        <div class="border-white border-8 w-64 h-64 p-10 m-4 rounded-[30px]"></div>
-      </div>
-    </div>
-  </div>
-  <div class="flex flex-col lg:flex-row flex-1 bg-slate-900">
-    <div class="mx-auto flex flex-wrap justify-center lg:flex-row lg:items-center">
-      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
-      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
-      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
-      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
-      <div class="border-white border-8 w-64 h-96 py-96 px-10 m-4 rounded-[30px]"></div>
-    </div>
-  </div>
-</div>
 
-
-  
     
   );
 }
