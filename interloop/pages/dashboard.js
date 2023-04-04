@@ -19,10 +19,12 @@ export default function Dashboard() {
       <Head>
         <title>Dashboard</title>
       </Head>
-      <iframe className="h-screen w-screen p-10"
-        src="https://app.powerbi.com/reportEmbed?reportId=788eb99d-85c8-4723-a774-6157c2917ba0&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac"
+      <iframe className="h-screen w-screen p-2.5"
+        src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac"
         allowFullScreen={true}
       ></iframe>
     </div>
   );
 }
+
+
