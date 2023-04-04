@@ -17,9 +17,9 @@ export default function Home() {
   });
   return (
     <div class="relative w-full flex flex-col min-h-screen w-100 h-100 z-10">
-    <Image src={backgrounf} alt="SVG Image" layout="fill" width={800} height={600} objectFit="cover" /> 
+    <Image src={backgrounf} alt="SVG Image" layout="fill" width={600} height={400} objectFit="cover" /> 
         <div class="w-full flex flex-col lg:flex-row flex-1 bg-slate-900 ">
-        <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 lg:px-10 md:py-20 md:px-4 flex-1 ">
+        <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 lg:px-10 md:py-20 md:px-4 flex-1 z-20">
           <div class="text-center lg:text-left ">
             <h2 class="text-9xl md:text-8xl sm:text-8xl text-white py-10 text-left z-20">Interloop<br />Scoreboard</h2>
             <p class="text-3xl text-white text-left z-20">Stop Integrating, Start Interlooping</p>
