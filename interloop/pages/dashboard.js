@@ -22,7 +22,7 @@ export default function Dashboard() {
       <iframe
         width="1450"
         height="888"
-        src="https://app.powerbi.com/view?r=eyJrIjoiMDI5MGU0NWUtZjhlMy00Y2IyLThmNmEtNGE3YWIwY2UwNTc0IiwidCI6IjAxNzgzNzkyLTZkZTEtNDI2Ny1iZDJmLTQxMDk3NzlhZTQwYSIsImMiOjF9"
+        src="https://app.powerbi.com/reportEmbed?reportId=788eb99d-85c8-4723-a774-6157c2917ba0&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac"
         allowFullScreen={true}
       ></iframe>
     </div>
