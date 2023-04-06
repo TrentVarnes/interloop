@@ -16,9 +16,11 @@ export default function Home() {
     }
   });
   return (
-    <div class="relative w-full flex flex-col min-h-screen w-100 h-100 z-10">
-    <Image src={backgrounf} alt="SVG Image" layout="fill" width={600} height={400} objectFit="cover" /> 
-        <div class="w-full flex flex-col lg:flex-row flex-1 bg-slate-900 ">
+    <div class="relative flex flex-col min-h-screen w-full h-full z-10 bg-slate-900">
+      <div class="relative m-64 w-96 h-96" >
+    <Image src={backgrounf} alt="SVG Image" layout="fill" objectFit="cover" className="absolute left-0 w-full h-full z-10" /> 
+    </div>
+        <div class="w-full flex flex-col lg:flex-row flex-1 bg-slate-900 absolute">
         <div class="max-w-screen-lg mx-auto flex flex-col lg:py-20 lg:px-10 md:py-20 md:px-4 flex-1 z-20">
           <div class="text-center lg:text-left px-20">
             <h2 class="text-9xl md:text-8xl sm:text-8xl text-white py-10 text-left z-20">Interloop<br />Scoreboard</h2>
@@ -51,46 +53,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class="flex flex-col lg:flex-row flex-1 bg-slate-900">
-        <div class="mx-auto flex flex-wrap justify-center lg:flex-row lg:items-center">
-          <div class="border-white border-8 w-64 h-screen m-4 rounded-[30px] bg-slate-900 z-20">
-          <div class="flex flex-col justify-start">
-          <div class="w-16 h-16 rounded-full bg-gray-100 m-3 justify-top"></div>
-              <p class="m-3 text-gray-100 ">Interloop Team</p>
-              <p class="m-3 text-gray-100 ">Velocity: 0%</p>
-          </div>
-          </div>
-          <div class="border-white border-8 w-64 h-screen m-4 rounded-[30px] bg-slate-900 z-20">
-          <div class="flex flex-col justify-start">
-          <div class="w-16 h-16 rounded-full bg-gray-100 m-3 justify-top"></div>
-              <p class="m-3 text-gray-100 ">Meaghan Frost</p>
-              <p class="m-3 text-gray-100 ">Velocity: 0%</p>
-          </div>
-          </div>
-          <div class="border-white border-8 w-64 h-screen m-4 rounded-[30px] bg-slate-900 z-20">
-          <div class="flex flex-col justify-start">
-          <div class="w-16 h-16 rounded-full bg-gray-100 m-3 justify-top"></div>
-              <p class="m-3 text-gray-100 ">Jordan Berry</p>
-              <p class="m-3 text-gray-100 ">Velocity: 0%</p>
-          </div>
-          </div>
-          <div class="border-white border-8 w-64 h-screen m-4 rounded-[30px] bg-slate-900 z-20">
-          <div class="flex flex-col justify-start">
-          <div class="w-16 h-16 rounded-full bg-gray-100 m-3 justify-top"></div>
-              <p class="m-3 text-gray-100 ">Luis Lozoya</p>
-              <p class="m-3 text-gray-100 ">Velocity: 0%</p>
-          </div>
-          </div>
-          <div class="border-white border-8 w-64 h-screen m-4 rounded-[30px] bg-slate-900 z-20">
-          <div class="flex flex-col justify-start">
-          <div class="w-16 h-16 rounded-full bg-gray-100 m-3 justify-top"></div>
-              <p class="m-3 text-gray-100 ">Will Austell</p>
-              <p class="m-3 text-gray-100 ">Velocity: 0%</p>
-          </div>
-          </div>
-          
-        </div>
-      </div>
+      
     </div>
 
     
