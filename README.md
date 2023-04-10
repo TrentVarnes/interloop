@@ -9,6 +9,8 @@
   -   Dashboard must be responsive and update with database
 - Create an interface that greets the user as well as provides snapshots at individual data
 
+## Full Documentation: (In Progress)
+
 ## Home Page
 
 <img width="800" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/230805930-54b17c63-c214-4fd5-9a80-208e94081b12.png">
