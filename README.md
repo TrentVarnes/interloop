@@ -3,7 +3,7 @@
 - This Web Application requires a verfied @interloop.ai email address
 - To run a mock website with mock company data, download our project and use command npm run dev to generate a local host
 
-## Goal
+## Goals: (In progress)
 - Client: Interloop
 - Create a Web Application that displays an embedded Dashboard for both company data and individual employee data
   -   Dashboard must be responsive and update with database
