@@ -13,8 +13,9 @@ const NavBar = () => {
     return (
       <Navbar fluid expand="lg" className="bg-zinc-500 ">
         <Navbar.Brand
-          className="mx-3 flex items-center justify-center lang-de"
+          className="flex flex-row items-center justify-center lang-de"
           href="/"
+          style={{ paddingLeft: "30px", paddingRight: "60px" }}
         >
           <img src={loop} alt="interloop photo" className="p-2 "height={200} width={200} />
         </Navbar.Brand>
