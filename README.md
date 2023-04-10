@@ -13,10 +13,8 @@
 
 ## Home Page
 
-<img width="800" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/230805930-54b17c63-c214-4fd5-9a80-208e94081b12.png">
+<img width="800" alt="Screenshot 2023-04-10 at 7 10 25 PM" src="https://user-images.githubusercontent.com/75393933/231016311-fd212f81-ea4f-43cc-bbe1-3e9c912b031c.png">
 
 ## Dashboard
 
-<img width="800" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/230805458-98110b03-a519-440b-a81d-3475921d0d36.png">
-
-
+<img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/231016357-412d0cc4-9b21-4e45-8a37-1c588e20b918.png">
