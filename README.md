@@ -1,7 +1,19 @@
 # Capstone Project: Interloop
 ## How to use 
 - This Web Application requires a verfied @interloop.ai email address
-- To run a mock website with mock company data, download our project and use command npm run dev to generate a local host
+- To run a mock website:
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Goals: (In progress)
 - Client: Interloop
