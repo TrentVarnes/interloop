@@ -1,9 +1,10 @@
 # Capstone Project: Interloop Dashboard
-![project](https://user-images.githubusercontent.com/75393933/232372514-860addfe-253b-48e3-82b6-b21f22063876.jpg)
+![final](https://user-images.githubusercontent.com/75393933/232373662-4f4eb6c0-5900-4f1e-892e-10c179a25f2d.jpg)
 
 ## How to use 
 - This Web Application requires a verfied @interloop.ai email address
 - To run a mock website:
+
 
 First, run the development server:
 
