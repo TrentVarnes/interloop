@@ -1,5 +1,5 @@
 # Capstone Project: Interloop Dashboard
-![done](https://user-images.githubusercontent.com/75393933/232374028-66dca52b-930d-4a12-b5a5-e24ed24d0224.jpg)
+![done](https://user-images.githubusercontent.com/75393933/232374275-df890db7-07e5-4e7f-8686-b20e5cb6ac1f.jpg)
 
 ## How to use 
 - This Web Application requires a verfied @interloop.ai email address
