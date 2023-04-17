@@ -1,4 +1,6 @@
 # Capstone Project: Interloop
+![project](https://user-images.githubusercontent.com/75393933/232372514-860addfe-253b-48e3-82b6-b21f22063876.jpg)
+
 ## How to use 
 - This Web Application requires a verfied @interloop.ai email address
 - To run a mock website:
