@@ -25,11 +25,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Create an interface that greets the user as well as provides snapshots at individual data
 
 ## Full Documentation: (In Progress)
+<img width="800" alt="Screenshot 2023-04-19 at 1 01 28 PM" src="https://user-images.githubusercontent.com/75393933/233148169-9d50dc05-2177-4aa2-8198-96044a646573.png">
 
 ## Home Page
 
-<img width="800" alt="Screenshot 2023-04-10 at 7 10 25 PM" src="https://user-images.githubusercontent.com/75393933/232978261-0fa5c110-5705-4490-9b54-a303a40cfe7d.png">
-
+<img width="800" alt="Screenshot 2023-04-19 at 1 01 28 PM" src="https://user-images.githubusercontent.com/75393933/233148169-9d50dc05-2177-4aa2-8198-96044a646573.png">
 ## Dashboard
 
 <img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/232977960-eef99bb9-5b71-49a0-b70d-20b5d283a5b1.png">
