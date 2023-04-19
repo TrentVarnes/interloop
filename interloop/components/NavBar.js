@@ -11,7 +11,7 @@ const NavBar = () => {
   const { data: session, status } = useSession();
   if (status === 'authenticated') {
     return (
-      <Navbar fluid expand="lg" className="bg-zinc-500 ">
+      <Navbar fluid expand="lg" className="bg-slate-700  ">
         <Navbar.Brand
           className="flex flex-row items-center justify-center lang-de"
           href="/"
@@ -22,18 +22,23 @@ const NavBar = () => {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="justify-content-end" style={{ width: '100%' }}>
+            <Nav className="justify-content-end " style={{ width: '100%' }}>
               <Nav.Link
-                className="text-slate-900 hover:text-white text-m font-bold"
+                className="text-white hover:text-slate-900 text-m font-bold"
                 href="/"
               >
+                <div className="bg-gradient-to-tr from-slate-500 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
                 Home
+                </div>
               </Nav.Link>
               <Nav.Link
-                className="text-slate-900 hover:text-white text-m font-bold"
+              
+                className="text-white hover:text-slate-900 text-m font-bold"
                 href="/dashboard"
               >
+                <div className="bg-gradient-to-tr from-slate-500 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
                 Dashboard
+                </div>
               </Nav.Link>
 
 
@@ -41,8 +46,11 @@ const NavBar = () => {
                 align="end"
                 className="text-m font-bold"
                 title={
-                  <span className="text-slate-900 hover:text-white ">
+                  <span className="text-white hover:text-slate-900 ">
+                                    <div className="bg-gradient-to-tr from-slate-500 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
+
                     {session.user?.name}
+                    </div>
                   </span>
                 }
               >
