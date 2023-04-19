@@ -128,8 +128,8 @@ export default function Login() {
             </button>
           </div>
           <p className="text-center">
-            Dont have an account yet?
-            <Link className="text-blue-700" href="/register">
+            Dont have an account yet? 
+            <Link className="text-blue-700 px-1" href="/register">
               Sign Up!
             </Link>
           </p>
