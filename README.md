@@ -28,8 +28,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Home Page
 
-<img width="800" alt="Screenshot 2023-04-10 at 7 10 25 PM" src="https://user-images.githubusercontent.com/75393933/232949269-4f958512-1a3a-43ea-bbcc-671fc218583c.png">
+<img width="800" alt="Screenshot 2023-04-10 at 7 10 25 PM" src="https://user-images.githubusercontent.com/75393933/232960789-f8273e1d-a919-4696-a02c-8ef42da08ea9.png">
 
 ## Dashboard
 
-<img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/232949283-d5df9907-71a4-4a58-9fc6-006af353ea68.png">
+<img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/232960793-31d3e537-b6a3-471a-9dc6-5412f6765c53.png">
