@@ -1,7 +1,22 @@
-# Capstone Project: Interloop
+# Capstone Project: Interloop Dashboard
+![done](https://user-images.githubusercontent.com/75393933/232374275-df890db7-07e5-4e7f-8686-b20e5cb6ac1f.jpg)
+
 ## How to use 
 - This Web Application requires a verfied @interloop.ai email address
-- To run a mock website with mock company data, download our project and use command npm run dev to generate a local host
+- To run a mock website:
+
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Goals: (In progress)
 - Client: Interloop
@@ -13,8 +28,8 @@
 
 ## Home Page
 
-<img width="800" alt="Screenshot 2023-04-10 at 7 10 25 PM" src="https://user-images.githubusercontent.com/75393933/231016311-fd212f81-ea4f-43cc-bbe1-3e9c912b031c.png">
+<img width="800" alt="Screenshot 2023-04-10 at 7 10 25 PM" src="https://user-images.githubusercontent.com/75393933/232949269-4f958512-1a3a-43ea-bbcc-671fc218583c.png">
 
 ## Dashboard
 
-<img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/231016357-412d0cc4-9b21-4e45-8a37-1c588e20b918.png">
+<img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/232949283-d5df9907-71a4-4a58-9fc6-006af353ea68.png">
