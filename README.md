@@ -25,7 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Create an interface that greets the user as well as provides snapshots at individual data
 
 ## Full Documentation: (In Progress)
-<img width="800" alt="Screenshot 2023-04-19 at 1 01 28 PM" src="https://user-images.githubusercontent.com/75393933/233148169-9d50dc05-2177-4aa2-8198-96044a646573.png">
 
 ## Home Page
 
