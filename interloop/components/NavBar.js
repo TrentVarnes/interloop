@@ -27,7 +27,7 @@ const NavBar = () => {
                 className="text-white hover:text-slate-900 text-m font-bold"
                 href="/"
               >
-                <div className="bg-gradient-to-tr from-slate-500 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
+                <div className="bg-gradient-to-tr from-slate-700 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
                 Home
                 </div>
               </Nav.Link>
@@ -36,7 +36,7 @@ const NavBar = () => {
                 className="text-white hover:text-slate-900 text-m font-bold"
                 href="/dashboard"
               >
-                <div className="bg-gradient-to-tr from-slate-500 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
+                <div className="bg-gradient-to-tr from-slate-700 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
                 Dashboard
                 </div>
               </Nav.Link>
@@ -47,7 +47,7 @@ const NavBar = () => {
                 className="text-m font-bold"
                 title={
                   <span className="text-white hover:text-slate-900 ">
-                                    <div className="bg-gradient-to-tr from-slate-500 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
+                                    <div className="bg-gradient-to-tr from-slate-700 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
 
                     {session.user?.name}
                     </div>
