@@ -43,10 +43,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## System Design <a name="sysdesign"></a>
 The first paragraph text
 
-### Register Page <a name="reg"></a>
+### Register Page(In Progress) <a name="reg"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-### Login Page & Sign Up (In Progress) <a name="log"></a>
+### Login Page (In Progress) <a name="log"></a>
 
 <img width="800" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/233088278-d1681555-a8b9-4f80-a5b9-dc17b1ff443f.png">
 
@@ -54,7 +54,7 @@ This is a sub paragraph, formatted in heading 3 style
 
 <img width="800" alt="Screenshot 2023-04-19 at 1 01 28 PM" src="https://user-images.githubusercontent.com/75393933/233148169-9d50dc05-2177-4aa2-8198-96044a646573.png">
 
-### Dashboard Pages <a name="dash"></a>
+### Dashboard Pages(In Progress) <a name="dash"></a>
 
 <img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/232977960-eef99bb9-5b71-49a0-b70d-20b5d283a5b1.png">
 
