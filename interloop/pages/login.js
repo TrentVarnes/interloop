@@ -69,7 +69,7 @@ export default function Login() {
       </Head>
       <section className="w-3/4 mx-auto flex flex-col gap-6">
         <div className="title">
-          <h1 className="text-gray-800 text-4xl font-bold py-4">Log in</h1>
+          <h1 className="text-gray-800 text-4xl font-bold py-7">Log in</h1>
         </div>
         <form className="flex flex-col gap-3" onSubmit={formik.handleSubmit}>
           <div
@@ -87,7 +87,7 @@ export default function Login() {
               {...formik.getFieldProps('email')}
             />
             <span className="icon flex items-center px-4">
-              <HiAtSymbol size={25} />
+              <HiAtSymbol size={20} />
             </span>
           </div>
           {/**Zac could you try to make this look better? It displays a message error! On this and register page  */}
@@ -114,7 +114,7 @@ export default function Login() {
               className="icon flex items-center px-4 cursor-pointer"
               onClick={() => setShow(!show)}
             >
-              <HiFingerPrint size={25} />
+              <HiFingerPrint size={20} />
             </span>
           </div>
           {/*formik.errors.password && formik.touched.password ? (

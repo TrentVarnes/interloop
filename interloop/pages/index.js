@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
+import { useState } from 'react';
 import swooshy from '../styles/images/big.svg';
 import curveTop from '../styles/images/big.svg';
 import curveBottom from '../styles/images/curveBottom.svg';
@@ -11,17 +12,22 @@ import Image from 'next/legacy/image';
 export default function Home() {
   const { data: session, status } = useSession();
   const router = useRouter();
+  const [height, setHeight] = useState(0);
 
   useEffect(() => {
+    document.documentElement.style.height = `${height}px`;
+    document.body.style.height = `${height}px`;
     if (status === 'authenticated') {
     } else if (status === 'unauthenticated') {
       void router.push('/login');
     }
-  });
+  },[height, router, status]);
+
   return (
-    
-    <div className="flex overflow-hidden flex-col w-full h-screen z-10 ">
-  <div className="relative w-full h-full z-10">
+    <div>
+      <div ref={el => el && setHeight(el.offsetHeight)}>
+      <div className="flex overflow-hidden flex-col w-full h-screen z-10">
+          <div className="relative w-full h-screen z-10">
     <Image 
       src={swooshy} 
       alt="SVG Image" 
@@ -32,8 +38,7 @@ export default function Home() {
     />
   </div>
 
-      <div className="w-full h-screen flex flex-col lg:flex-row  bg-gradient-to-tr from-slate-900 to-slate-700 absolute">
-        <div className="mx-auto flex flex-col flex-1 z-20 lg:px-28 lg:py-16 md:px-16">
+  <div className="w-full h-screen flex flex-col lg:flex-row  bg-gradient-to-tr from-slate-900 to-slate-700 absolute">        <div className="mx-auto flex flex-col flex-1 z-20 lg:px-28 lg:py-16 ">
           
         <div className="max-w-screen  mx-auto flex flex-col flex-1 z-20 items-left">
           <h2 className="lg:text-8xl md:text-8xl sm:text-8xl text-white py-10 text-left z-20">Interloop<br/>Scoreboard</h2>
@@ -72,6 +77,7 @@ export default function Home() {
       
     </div>
 
-    
+    </div>
+    </div>
   );
 }
