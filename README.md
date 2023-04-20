@@ -50,13 +50,14 @@ Input boxes will display a message if any credentials are incorrect, i.e. email 
 Input boxes display a message when input is incorrect, giving the user adequate opportunities to fill out the form correctly. User is notified if registration was successful or not.
 
 ### Home Page (In Progress) <a name="home"></a>
+<img width="1353" alt="Screenshot 2023-04-20 at 6 03 01 PM" src="https://user-images.githubusercontent.com/75393933/233497046-0f363093-0551-4a41-bb6e-d4185089725c.png">
 
 This is the landing page after logging in. Main features include two widgets that are also redirects to other pages. Top widget is the individuals 
 <img width="800" alt="Screenshot 2023-04-20 at 2 42 13 PM" src="https://user-images.githubusercontent.com/75393933/233458629-acda6f0f-a82b-4acc-a8c7-aed7231a2330.png">
 
 ### Dashboard Pages(In Progress) <a name="dash"></a>
 
-<img width="800" alt="Screenshot 2023-04-10 at 7 10 34 PM" src="https://user-images.githubusercontent.com/75393933/232977960-eef99bb9-5b71-49a0-b70d-20b5d283a5b1.png">
+<img width="800" alt="Screenshot 2023-04-20 at 6 03 01 PM" src="https://user-images.githubusercontent.com/75393933/233497046-0f363093-0551-4a41-bb6e-d4185089725c.png">
 
 ## System Architecture <a name="sysarch"></a>
 The second paragraph text
