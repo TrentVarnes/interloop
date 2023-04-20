@@ -19,10 +19,8 @@
 5. [Conclusion](#conclusion)
 
 ## Overview <a name="overview"></a>
-- Client: Interloop
-- Create a Web Application that displays an embedded Dashboard for both company data and individual employee data
-  -   Dashboard must be responsive and update with database
-- Create an interface that greets the user as well as provides snapshots at individual data
+- Client: Interloop.AI
+- Develop a web application that displays an embedded Dashboard for both company data and individual employee data
 
 ## How to Use <a name="howto"></a>
 - This Web Application requires a verfied @interloop.ai email address
@@ -37,20 +35,23 @@ yarn dev
 # or
 pnpm dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## System Design <a name="sysdesign"></a>
-The first paragraph text
-
-### Register Page(In Progress) <a name="reg"></a>
-This is a sub paragraph, formatted in heading 3 style
+This section describes the user interface of this system. Each page is shown and specific features and functionality are listed.
 
 ### Login Page (In Progress) <a name="log"></a>
+Input boxes will display a message if any credentials are incorrect, i.e. email or password is incorrect or user does not exist. Users are encouraged to sign up if they do not have an account yet.
 
 <img width="800" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/233088278-d1681555-a8b9-4f80-a5b9-dc17b1ff443f.png">
 
+### Register Page(In Progress) <a name="reg"></a>
+
+Input boxes display a message when input is incorrect, giving the user adequate opportunities to fill out the form correctly. User is notified if registration was successful or not.
+
 ### Home Page (In Progress) <a name="home"></a>
+
+This is the landing page after logging in. Main features include two widgets that are also redirects to other pages. Top widget is the individuals 
 <img width="800" alt="Screenshot 2023-04-20 at 2 42 13 PM" src="https://user-images.githubusercontent.com/75393933/233458629-acda6f0f-a82b-4acc-a8c7-aed7231a2330.png">
 
 ### Dashboard Pages(In Progress) <a name="dash"></a>
