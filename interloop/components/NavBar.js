@@ -22,7 +22,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="justify-content-end text-white" style={{ width: '100%' }}>
+            <Nav className="justify-content-end text-white" style={{ paddingRight: "30px", width: '100%' }}>
               
               <Nav.Link
                 className="text-slate-100 hover:text-blue-400 text-m font-bold"
