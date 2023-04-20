@@ -50,7 +50,6 @@ Input boxes will display a message if any credentials are incorrect, i.e. email 
 Input boxes display a message when input is incorrect, giving the user adequate opportunities to fill out the form correctly. User is notified if registration was successful or not.
 
 ### Home Page (In Progress) <a name="home"></a>
-<img width="800" alt="Screenshot 2023-04-20 at 6 03 01 PM" src="https://user-images.githubusercontent.com/75393933/233497046-0f363093-0551-4a41-bb6e-d4185089725c.png">
 
 This is the landing page after logging in. Main features include two widgets that are also redirects to other pages. Top widget is the individuals 
 
