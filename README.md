@@ -71,7 +71,7 @@ This is a sub paragraph, formatted in heading 3 style
 This is a sub paragraph, formatted in heading 3 style
 
 ### User Workflow <a name="userflow"></a>
-<img width="800" alt="User Workflow" src="./assets/user_workflow.png">
+<img width="800" alt="User Workflow" src="./assets/user-workflow.png">
 
 ### Authentication <a name="auth"></a>
 This is a sub paragraph, formatted in heading 3 style
