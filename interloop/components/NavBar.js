@@ -24,21 +24,17 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end " style={{ width: '100%' }}>
               <Nav.Link
-                className="text-white hover:text-slate-900 text-m font-bold"
+                className="text-blue-200 hover:text-white text-m font-bold"
                 href="/"
               >
-                <div className="bg-gradient-to-tr from-slate-700 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
                 Home
-                </div>
               </Nav.Link>
               <Nav.Link
               
-                className="text-white hover:text-slate-900 text-m font-bold"
+                className="hover:text-white text-blue-200 text-m font-bold"
                 href="/dashboard"
               >
-                <div className="bg-gradient-to-tr from-slate-700 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
                 Dashboard
-                </div>
               </Nav.Link>
 
 
@@ -46,11 +42,10 @@ const NavBar = () => {
                 align="end"
                 className="text-m font-bold"
                 title={
-                  <span className="text-white hover:text-slate-900 ">
-                                    <div className="bg-gradient-to-tr from-slate-700 to-slate-600 pt-1 mt-2 drop-shadow-xl duration-300 hover:drop-shadow-md text-center w-32 h-8 rounded-[5px] z-20">
+                  <span className=" text-blue-200 hover:text-white ">
 
                     {session.user?.name}
-                    </div>
+                    
                   </span>
                 }
               >
