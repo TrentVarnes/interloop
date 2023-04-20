@@ -2,56 +2,82 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import backgrounf from '../styles/images/backgrounf.svg';
-import gloawing from '../styles/images/gloawing.svg';
+import { useState } from 'react';
+import swooshy from '../styles/images/big.svg';
+import curveTop from '../styles/images/big.svg';
+import curveBottom from '../styles/images/curveBottom.svg';
 import Image from 'next/legacy/image';
+
 
 export default function Home() {
   const { data: session, status } = useSession();
   const router = useRouter();
+  const [height, setHeight] = useState(0);
 
   useEffect(() => {
+    document.documentElement.style.height = `${height}px`;
+    document.body.style.height = `${height}px`;
     if (status === 'authenticated') {
     } else if (status === 'unauthenticated') {
       void router.push('/login');
     }
-  });
+  },[height, router, status]);
+
   return (
-    <div className=" flex flex-col min-h-screen w-full h-full z-10 bg-slate-900">
-      <div className="relative w-96 h-96 mt-24 ml-16 p-96 z-10">
-      <Image 
-      src={backgrounf} 
+    <div>
+      <div ref={el => el && setHeight(el.offsetHeight)}>
+      <div className="flex overflow-hidden flex-col w-full h-screen z-10">
+          <div className="relative w-full h-screen z-10">
+    <Image 
+      src={swooshy} 
       alt="SVG Image" 
-      layout="fill" 
-      objectFit="cover"
+      width={756}
+      height={1140}
+      objectFit="contain"
       class="opacity-300"
     />
+  </div>
+
+  <div className="w-full h-screen flex flex-col lg:flex-row  bg-gradient-to-tr from-slate-900 to-slate-700 absolute">        <div className="mx-auto flex flex-col flex-1 z-20 lg:px-28 lg:py-16 ">
+          
+        <div className="max-w-screen  mx-auto flex flex-col flex-1 z-20 items-left">
+          <h2 className="lg:text-8xl md:text-8xl sm:text-8xl text-white py-10 text-left z-20">Interloop<br/>Scoreboard</h2>
+          <p className="lg:text-3xl md:text-3xl sm:text-3xl text-white py-0 text-left z-20">Stop Integrating,<br/> Start Interlooping</p>
+          <p className="text-sm mt-28 md:py-24 lg:py-24 text-white text-left z-20">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</p>
+        </div>
+        </div>
+        <div className="max-w-screen  mx-auto flex flex-col lg:px-10 md:py-20 md:px-4 flex-1 z-20 pl-6 lg:pl-0 pr-6 lg:pr-0 items-center">
+          <div className=" bg-slate-700 shadow-[0_25px_50px_-3px_rgba(0,0,0,0.4)] duration-500 hover:shadow-lg w-64 h-64 m-4 rounded-[10px] z-20">
+          <p className="m-3 text-white">ZacDaddy &apos;s Dashboard</p>
+          
+            <div className="h-8 ">
+            
+            <iframe className="h-48 w-64 pt-6 overflow-y:hidden "
+        src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false"
+        allowFullScreen={true}
+        frameborder="0" 
+        
+      >
+        
+      </iframe>
     
       </div>
-      <div className="w-full flex flex-col lg:flex-row flex-1 bg-slate-900 absolute">
-        <div className="relative max-w-screen-lg mx-auto flex flex-col lg:py-5 lg:px-10 md:py-20 md:px-4 flex-1 z-20 pl-6 lg:pl-0 pr-6 lg:pr-0">
-          <div className="text-center lg:text-left px-20">
-            <h2 className="text-9xl md:text-8xl sm:text-8xl text-white py-10 text-left z-20">Interloop<br />Scoreboard</h2>
-            <p className="text-3xl text-white text-left z-20">Stop Integrating, Start Interlooping</p>
-            <p className="text-sm mt-28 md:py-16 lg:py-32 text-white text-left z-20">Helping our clients connect their data, systems, and people to optimize operations and confidently drive growth.</p>
+      
+          </div>
+          <div className="bg-slate-700 shadow-[0_25px_50px_-3px_rgba(0,0,0,0.4)] duration-500 hover:shadow-lg w-64 h-64 m-4 rounded-[10px] z-20">
+            <p className="m-3 text-white">Team Dashboard</p>
+            <iframe className="h-48 w-64 overflow-y:hidden"
+        src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false"
+        allowFullScreen={true}
+        frameborder="0" 
+      ></iframe>
           </div>
         </div>
-        <div className="max-w-screen mx-auto flex flex-col z-20 lg:py-10 md:py-20 px-4 flex-1 pl-6 lg:pl-0 pr-6 lg:pr-0">
-          
-            <div className=" bg-slate-600 drop-shadow-2xl  w-64 h-64 m-4 rounded-[10px] z-20">
-              <p className="m-3 text-white">Your Dashboard</p>
-              <p className="m-3 text-white">Velocity: 0%</p>
-            </div>
-            <div className=" bg-slate-600 drop-shadow-2xl w-64 h-64 m-4 rounded-[10px] z-20">
-              <p className="m-3 text-white">Team Dashboard</p>
-              <p className="m-3 text-white">Velocity: 0%</p>
-            </div>
-            
-          </div>
         </div>
       
     </div>
 
-    
+    </div>
+    </div>
   );
 }

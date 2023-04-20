@@ -11,7 +11,7 @@ const NavBar = () => {
   const { data: session, status } = useSession();
   if (status === 'authenticated') {
     return (
-      <Navbar fluid expand="lg" className="bg-zinc-500 ">
+      <Navbar fluid expand="lg" className="bg-slate-700  ">
         <Navbar.Brand
           className="flex flex-row items-center justify-center lang-de"
           href="/"
@@ -22,15 +22,16 @@ const NavBar = () => {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="justify-content-end" style={{ width: '100%' }}>
+            <Nav className="justify-content-end " style={{ width: '100%' }}>
               <Nav.Link
-                className="text-slate-900 hover:text-white text-m font-bold"
+                className="text-blue-200 hover:text-white text-m font-bold"
                 href="/"
               >
                 Home
               </Nav.Link>
               <Nav.Link
-                className="text-slate-900 hover:text-white text-m font-bold"
+              
+                className="hover:text-white text-blue-200 text-m font-bold"
                 href="/dashboard"
               >
                 Dashboard
@@ -41,8 +42,10 @@ const NavBar = () => {
                 align="end"
                 className="text-m font-bold"
                 title={
-                  <span className="text-slate-900 hover:text-white ">
+                  <span className=" text-blue-200 hover:text-white ">
+
                     {session.user?.name}
+                    
                   </span>
                 }
               >

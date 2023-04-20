@@ -54,10 +54,10 @@ export default function Register() {
   }
   return (
     <Layouts>
-      <Head>
-        <title>Register</title>
-      </Head>
-      <section className="w-3/4 mx-auto flex flex-col gap-2">
+      <section className="w-3/4 mx-auto flex flex-col gap-6">
+      <div className="title">
+          <h1 className="text-gray-800 text-4xl font-bold py-0">Sign Up</h1>
+        </div>
         <form className="flex flex-col gap-2" onSubmit={formik.handleSubmit}>
           <div
             className={`${styles.input_group} ${
