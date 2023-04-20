@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
       <SSRProvider>
         <SessionProvider session={session}>
           <Layout>
-           
             <Component {...pageProps} />
             <ToastContainer />
             

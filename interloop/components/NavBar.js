@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import loop from '../styles/images/interloop-1.svg';
+import loop from '../styles/images/logoInterloop.svg';
 import { useSession, signIn, signOut } from 'next-auth/react';
 
 const NavBar = () => {
@@ -22,39 +22,37 @@ const NavBar = () => {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="justify-content-end " style={{ width: '100%' }}>
+            <Nav className="justify-content-end text-white" style={{ width: '100%' }}>
+              
               <Nav.Link
-                className="text-blue-200 hover:text-white text-m font-bold"
+                className="text-slate-100 hover:text-blue-400 text-m font-bold"
                 href="/"
               >
                 Home
               </Nav.Link>
               <Nav.Link
               
-                className="hover:text-white text-blue-200 text-m font-bold"
+                className="text-slate-100 hover:text-blue-400 text-m font-bold"
                 href="/dashboard"
               >
-                Dashboard
+                Team 
               </Nav.Link>
 
+              <Nav.Link
+              
+              className="text-slate-100 hover:text-blue-400 text-m font-bold"
+              href="/profile"
+            >
+              Profile  
+            </Nav.Link>
+            <Nav.Link onClick={() => signOut()}
+              
+              className="text-slate-100 hover:text-blue-400 text-m font-bold"
+              
+            >
+              Sign Out  
+            </Nav.Link>
 
-              <NavDropdown 
-                align="end"
-                className="text-m font-bold"
-                title={
-                  <span className=" text-blue-200 hover:text-white ">
-
-                    {session.user?.name}
-                    
-                  </span>
-                }
-              >
-                <NavDropdown.Item href="/profile">Profile</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item onClick={() => signOut()}>
-                  Sign out
-                </NavDropdown.Item>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
