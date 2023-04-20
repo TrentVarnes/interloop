@@ -15,16 +15,16 @@ export default function Profile() {
     }
   });
   return (
-    <div className="flex h-screen bg-slate-900">
-      <Head>
-        <title>Profile</title>
-      </Head>
-      <div className="mx-auto my-8 w-96">
-        <h1 className="text-3xl font-bold mb-4">My Profile</h1>
-        <p className="text-gray-400 mb-8">View and manage your profile information</p>
-        <h2 className="text-2xl font-bold mb-2">Email</h2>
-        <p className="text-gray-400">{session?.user?.email}</p>
+      <div align="middle" className="bg-slate-800">
+        <Head>
+          <title>Dashboard</title>
+        </Head>
+      
+        <iframe 
+        title="InterloopAi" 
+        className="h-screen w-screen p-9"
+        src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&pageName=Page%202&filter=pageName%20eq%20%27Page%202%27"
+        allowFullScreen="true"></iframe>
       </div>
-    </div>
   );
 }
