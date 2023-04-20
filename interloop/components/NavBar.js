@@ -40,7 +40,7 @@ const NavBar = () => {
 
               <Nav.Link
               
-              className="text-slate-100 hover:text-blue-400 text-m font-bold"
+              className="text-slate-100 hover:text-blue-400 text-brand-text-m font-bold"
               href="/profile"
             >
               Profile  
