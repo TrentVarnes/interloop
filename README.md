@@ -51,8 +51,7 @@ This is a sub paragraph, formatted in heading 3 style
 <img width="800" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/233088278-d1681555-a8b9-4f80-a5b9-dc17b1ff443f.png">
 
 ### Home Page (In Progress) <a name="home"></a>
-
-<img width="800" alt="Screenshot 2023-04-19 at 1 01 28 PM" src="https://user-images.githubusercontent.com/75393933/233148169-9d50dc05-2177-4aa2-8198-96044a646573.png">
+<img width="800" alt="Screenshot 2023-04-20 at 2 42 13 PM" src="https://user-images.githubusercontent.com/75393933/233458629-acda6f0f-a82b-4acc-a8c7-aed7231a2330.png">
 
 ### Dashboard Pages(In Progress) <a name="dash"></a>
 
