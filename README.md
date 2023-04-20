@@ -46,9 +46,9 @@ The first paragraph text
 ### Register Page <a name="reg"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-### Login Page <a name="log"></a>
+### Login Page & Sign Up (In Progress) <a name="log"></a>
 
-<img width="800" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/233088278-d1681555-a8b9-4f80-a5b9-dc17b1ff443f.png">
+<img width="400" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/233088278-d1681555-a8b9-4f80-a5b9-dc17b1ff443f.png"> <img width="400" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/233088278-d1681555-a8b9-4f80-a5b9-dc17b1ff443f.png">
 
 ### Home Page <a name="home"></a>
 
