@@ -49,11 +49,11 @@ export default function Home() {
         </div>
         <div className="max-w-screen  mx-auto flex flex-col lg:px-10 md:py-20 md:px-4 flex-1 z-20 pl-6 lg:pl-0 pr-6 lg:pr-0 items-center">
           <Nav.Link
-          href="/dashboard"
+          href="/profile"
           >
           <div className=" bg-slate-700 shadow-[0_25px_50px_-3px_rgba(0,0,0,0.4)] duration-500 hover:shadow-lg w-64 h-64 m-4 rounded-[10px] z-20">
             <div className="p-1">
-          <p className="m-3 hover:text-blue-400 text-slate-100">ZacDaddy &apos;s Dashboard</p>
+          <p className="m-3 hover:text-blue-400 text-slate-100 duration-300">ZacDaddy &apos;s Dashboard</p>
           </div>
             <div className="h-8 ">
             <iframe 
@@ -75,7 +75,7 @@ export default function Home() {
           >
           <div className="bg-slate-700 shadow-[0_25px_50px_-3px_rgba(0,0,0,0.4)] duration-500 hover:shadow-lg w-64 h-64 m-4 rounded-[10px] z-20">
             <div className=" p-1">
-                <p className="m-3 hover:text-blue-400 text-slate-100">Team Dashboard</p>
+                <p className="m-3 hover:text-blue-400 text-slate-100 duration-300">Team Dashboard</p>
             </div>
             <iframe className="h-48 w-64 overflow-y:hidden"
         src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false"
