@@ -49,6 +49,8 @@ Input boxes will display a message if any credentials are incorrect, i.e. email 
 
 Input boxes display a message when input is incorrect, giving the user adequate opportunities to fill out the form correctly. User is notified if registration was successful or not.
 
+<img width="800" alt="Screenshot 2023-04-21 at 2 38 39 PM" src="https://user-images.githubusercontent.com/75393933/233711090-5c570a53-d3f4-41f2-91ca-f37ab12e4036.png">
+
 ### Home Page (In Progress) <a name="home"></a>
 
 This is the landing page after logging in. Main features include two widgets that are also redirects to other pages. Top widget is a glipse at an individuals personal dashboard and bottom widget is a glipse of the teams dashboard. Both are embeded using PowerBI and are fully interactive.
