@@ -59,7 +59,7 @@ export default function Home() {
             <iframe 
             title="widget1 - Page 2" 
             className="h-44 w-64 overflow-y:hidden "
-            src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false" 
+            src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false&pageName=ReportSection2216b01860020dc72641" 
             frameborder="0" 
             scrolling="no" 
             allowFullScreen="true">
@@ -77,7 +77,7 @@ export default function Home() {
                 <p className="m-3 hover:text-blue-400 text-slate-100 duration-300">Team Dashboard</p>
             </div>
             <iframe className="h-44 w-64 overflow-y:hidden"
-        src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false"
+        src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false&pageName=ReportSection2216b01860020dc72641"
         allowFullScreen={true}
         frameborder="0" 
       ></iframe>
