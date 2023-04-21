@@ -51,13 +51,17 @@ Input boxes display a message when input is incorrect, giving the user adequate 
 
 ### Home Page (In Progress) <a name="home"></a>
 
-This is the landing page after logging in. Main features include two widgets that are also redirects to other pages. Top widget is the individuals 
+This is the landing page after logging in. Main features include two widgets that are also redirects to other pages. Top widget is a glipse at an individuals personal dashboard and bottom widget is a glipse of the teams dashboard. Both are embeded using PowerBI and are fully interactive.
 
-<img width="800" alt="Screenshot 2023-04-20 at 2 42 13 PM" src="https://user-images.githubusercontent.com/75393933/233458629-acda6f0f-a82b-4acc-a8c7-aed7231a2330.png">
+<img width="800" alt="Screenshot 2023-04-21 at 2 22 50 PM" src="https://user-images.githubusercontent.com/75393933/233708481-451e0bd8-147b-4f95-b89b-9999bc7fe237.png">
 
-### Dashboard Pages(In Progress) <a name="dash"></a>
+### Team Dashboard  <a name="dash"></a>
 
-<img width="800" alt="Screenshot 2023-04-20 at 6 03 01 PM" src="https://user-images.githubusercontent.com/75393933/233497046-0f363093-0551-4a41-bb6e-d4185089725c.png">
+<img width="800" alt="Screenshot 2023-04-21 at 2 22 28 PM" src="https://user-images.githubusercontent.com/75393933/233708544-35d857ce-1f63-4b51-bc95-eceb76cd85f5.png">
+
+### Personal Dashboard  <a name="dash"></a>
+
+<img width="800" alt="Screenshot 2023-04-21 at 2 22 28 PM" src="https://user-images.githubusercontent.com/75393933/233708544-35d857ce-1f63-4b51-bc95-eceb76cd85f5.png">
 
 ## System Architecture <a name="sysarch"></a>
 The second paragraph text
