@@ -19,11 +19,10 @@ export default function Dashboard() {
       <Head>
         <title>Dashboard</title>
       </Head>
-    
       <iframe 
       title="InterloopAi" 
       className="h-screen w-screen p-9"
-      src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&pageName=Page%202&filter=pageName%20eq%20%27Page%202%27"
+      src="https://app.powerbi.com/reportEmbed?reportId=4a351ae0-4a2f-49b3-b3e9-c468be9d3e32&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&pageName=Team"
       allowFullScreen="true"></iframe>
     </div>
   );
