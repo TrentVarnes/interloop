@@ -59,7 +59,7 @@ export default function Home() {
             <iframe 
             title="widget1 - Page 2" 
             className="h-44 w-64 overflow-y:hidden "
-            src="https://app.powerbi.com/reportEmbed?reportId=1c4c8e08-b693-4910-aba9-53c3c9adc5fb&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false&pageName=ReportSectione285d438" 
+            src="https://app.powerbi.com/reportEmbed?reportId=1c4c8e08-b693-4910-aba9-53c3c9adc5fb&filterPaneEnabled=false&navContentPaneEnabled=false&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&pageName=ReportSection253a530ed91ea95ab713"
             frameborder="0" 
             scrolling="no" 
             allowFullScreen="true">
