@@ -32,8 +32,8 @@ export default function Home() {
     <Image 
       src={swooshy} 
       alt="SVG Image" 
-      width={756}
-      height={1140}
+      width={716}
+      height={1150}
       objectFit="contain"
       class="opacity-300"
     />
