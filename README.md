@@ -43,11 +43,20 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This section describes the user interface of this system. Each page is shown and specific features and functionality are listed.
 
 ### Login Page <a name="log"></a>
+Input Credintials:
+- Interloop email
+- Personal Password
+
 Input boxes will display a message if any credentials are incorrect, i.e. email or password is incorrect or user does not exist. Users are encouraged to sign up if they do not have an account yet.
 
 <img width="800" alt="Screenshot 2023-04-19 at 9 23 16 AM" src="https://user-images.githubusercontent.com/75393933/234432064-bd17e5d1-0971-4960-9a25-de3020d39c76.gif">
 
 ### Register Page <a name="reg"></a>
+Input Credintials:
+- Username
+- Interloop email
+- Personal Password
+- Confirmation of Password
 
 Input boxes display a message when input is incorrect, giving the user adequate opportunities to fill out the form correctly. User is notified if registration was successful or not.
 
