@@ -19,13 +19,15 @@ https://www.youtube.com/watch?v=z6UE6yfUgis
     4. [Dashboard Pages](#dash)
 
 ## Overview <a name="overview"></a>
-- Client: Interloop.AI
+- Client: Interloop.ai
+- Methodology: Scrum & Agile
 - Develop a web application that displays an embedded Dashboard for both company data and individual employee data
 
 ## System Architecture <a name="arch"></a>
 - Web app - Next.js
 - Authentication - Next.auth, MongoDB
 - Dashboard - PowerBI
+
 
 ## How to Use <a name="howto"></a>
 - This Web Application requires a verfied @interloop.ai email address
