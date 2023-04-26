@@ -10,8 +10,9 @@
 https://www.youtube.com/watch?v=z6UE6yfUgis
 ## Table of Contents:
 1. [Overview](#overview)
-2. [How to Use](#howto)
-3. [System Design](#sysdesign)
+2. [System Architecture](#arch)
+3. [How to Use](#howto)
+4. [System Design](#sysdesign)
     1. [Register Page](#reg)
     2. [Login Page](#log)
     3. [Home Page](#home)
@@ -21,6 +22,7 @@ https://www.youtube.com/watch?v=z6UE6yfUgis
 - Client: Interloop.AI
 - Develop a web application that displays an embedded Dashboard for both company data and individual employee data
 
+## System Architecture <a name="arch"></a>
 - Web app - Next.js
 - Authentication - Next.auth, MongoDB
 - Dashboard - PowerBI
