@@ -2,12 +2,15 @@
 ![done](https://user-images.githubusercontent.com/75393933/232374275-df890db7-07e5-4e7f-8686-b20e5cb6ac1f.jpg)
 
 ## The Team
-- Matthew Sparr www.linkedin.com/in/matthew-sparr-aa895822b
-- Zac Palmer www.linkedin.com/in/zac-palmer-b8482b1b7
-- Erin Phillips www.linkedin.com/in/enwphillips
-- Trent Varnes www.linkedin.com/in/trent-varnes
+- [Matthew Sparr](www.linkedin.com/in/matthew-sparr-aa895822b)
+- [Zac Palmer](www.linkedin.com/in/zac-palmer-b8482b1b7)
+- [Erin Phillips](www.linkedin.com/in/enwphillips)
+- [Trent Varnes](www.linkedin.com/in/trent-varnes)
+
 ## Watch our Slick Video:
-https://www.youtube.com/watch?v=z6UE6yfUgis
+
+[Slick Video](https://www.youtube.com/watch?v=z6UE6yfUgis)
+
 ## Table of Contents:
 1. [Overview](#overview)
 2. [System Architecture](#arch)
