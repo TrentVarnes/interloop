@@ -2,10 +2,10 @@
 ![done](https://user-images.githubusercontent.com/75393933/232374275-df890db7-07e5-4e7f-8686-b20e5cb6ac1f.jpg)
 
 ## The Team
-[Matthew Sparr](www.linkedin.com/in/matthew-sparr-aa895822b)
-[Zac Palmer](www.linkedin.com/in/zac-palmer-b8482b1b7)
-[Erin Phillips](www.linkedin.com/in/enwphillips)
-[Trent Varnes](www.linkedin.com/in/trent-varnes)
+- [Matthew Sparr](https://www.linkedin.com/in/matthew-sparr-aa895822b)
+- [Zac Palmer](https://www.linkedin.com/in/zac-palmer-b8482b1b7)
+- [Erin Phillips](https://www.linkedin.com/in/enwphillips)
+- [Trent Varnes](https://www.linkedin.com/in/trent-varnes)
 
 ## Watch our Slick Video:
 
