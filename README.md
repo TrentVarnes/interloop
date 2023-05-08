@@ -57,7 +57,7 @@ Input boxes will display a message if any credentials are incorrect, i.e. email 
 
 ### Register Page <a name="reg"></a>
 
-Input boxes display a message when input is incorrect, giving the user adequate opportunities to fill out the form correctly. User is notified if registration was successful or not.
+
 
 <img width="800" alt="Screenshot 2023-04-21 at 2 38 39 PM" src="https://user-images.githubusercontent.com/75393933/234432316-c6647f90-ca1c-4169-9a36-63b50174efcd.gif">
 
