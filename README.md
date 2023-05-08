@@ -28,6 +28,8 @@
 
 ## System Architecture <a name="arch"></a>
 - Web app - Next.js
+- Back end - Next.js
+- Front end - Tailwind, CSS
 - Authentication - Next.auth, MongoDB
 - Dashboard - PowerBI
 
