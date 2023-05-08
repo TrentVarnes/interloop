@@ -23,7 +23,7 @@ export default function Profile() {
         <iframe 
         title="InterloopAi" 
         className="h-screen w-screen p-9"
-        src="https://app.powerbi.com/reportEmbed?reportId=1c4c8e08-b693-4910-aba9-53c3c9adc5fb&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&pageName=ReportSectiond9dde6325ca580906cc0"
+        src="https://app.powerbi.com/reportEmbed?reportId=1c4c8e08-b693-4910-aba9-53c3c9adc5fb&autoAuth=true&ctid=e285d438-dbba-4a4c-941c-593ba422deac&filterPaneEnabled=false&navContentPaneEnabled=false&pageName=ReportSectiond9dde6325ca580906cc0"
         allowFullScreen="true"></iframe>
       </div>
   );
